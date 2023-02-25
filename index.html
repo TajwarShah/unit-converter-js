@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Unit Converter</title>
+</head>
+<body>
+
+    <div class="input-section">
+        <h1>Metric/Imperial Unit Conversion</h1>
+        <input id="input-el" size="1" type="text" placeholder="0">
+        <button id="convert-btn">Convert</button>
+    </div>
+    
+    <div class="output-section">
+
+        <div class="common-bg" id="length-section">
+            <h3>Length (Meter/Feet)</h3>
+            <p id="length-el"></p>
+        </div>
+
+        <div class="common-bg" class="volume-section">
+            <h3>Volume (Liters/Gallons)</h3>
+            <p id="volume-el"></p>
+        </div>
+
+        <div class="common-bg" class="mass-section">
+            <h3>Mass (Kilograms/Pounds)</h3>
+            <p id="mass-el"></p>
+        </div>
+
+    </div>
+
+    <button id="theme-toggle">Swap Theme</button>
+    
+</body>
+</html>
